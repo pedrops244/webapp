@@ -12,6 +12,6 @@ func main() {
 	utils.CarregarTemplate()
 	r := router.Gerar()
 
-	fmt.Println("Escutandona porta :3000")
+	fmt.Println("Escutando na porta 3000")
 	log.Fatal(http.ListenAndServe(":3000", r))
 }
